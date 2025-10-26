@@ -43,6 +43,18 @@ select {
     display: block;    
 }
 
+.wrapping-pictures {
+    float: left;
+    margin: 0 15px 15px 0;
+}
+@media (max-width: 768px) {
+    .wrapping-pictures {
+        float: none;           
+        display: block;       
+        margin: 0 auto 15px;  
+    }
+}
+
 /* option, optgroup */
 select option,
 select optgroup {
