@@ -37,6 +37,10 @@ select {
   overflow-wrap: break-word;
 }
 
+.img-map {
+    width: 100%;
+}
+
 /* option, optgroup */
 select option,
 select optgroup {
